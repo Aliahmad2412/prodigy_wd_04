@@ -1,0 +1,156 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Home Section */
+.home {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.home .intro {
+    max-width: 800px;
+}
+
+.home img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.about ul {
+    list-style-type: none;
+}
+
+.about ul li {
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    color: #ff6347;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact ul li a:hover {
+    color: #ff6347;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
